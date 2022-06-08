@@ -15,7 +15,6 @@ function getRandomNumber() {
 
 const MAX_ATTEMPTS = 5;
 
-    //convert NumberGuessingGame class to a function
   const NumberGuessingGame = (props) => {
     const [numberToGuess, setNumberToGuess] = useState(getRandomNumber);
     const [numberOfGuesses, setNumberOfGuesses] = useState(0);
